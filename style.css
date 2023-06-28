@@ -1,0 +1,52 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body{
+     background: #444d69;
+     background: url(./image\ \(1\)\ 1.png);
+     background-repeat: no-repeat;
+     
+}
+.card{
+     position: relative;
+     height: 100px;
+     width: 250px;
+     border-radius: 10px;
+     top: 480px;
+}
+.card > img{
+     position: absolute;
+     z-index: -9999999;
+     width: 80px;
+     left: 115px;
+     top: 10px;
+     filter: blur(1px);
+}
+.title{
+     font-size: 22px;
+     color: #fff;
+     text-align: center;
+     font-family: "geFont";
+     user-select: none;
+}
+.describe{
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 16px;
+     color: #fff ;
+     text-align: center;
+     user-select: none;
+}
+.card-bg{
+     width: 100%;
+     height: 100%;
+     background: rgb(16,255,0);
+     background: -moz-linear-gradient(54deg, rgba(16,255,0,1) 0%, rgba(16,255,0,0.48082983193277307) 61%);
+     background: -webkit-linear-gradient(54deg, rgba(16,255,0,1) 0%, rgba(16,255,0,0.48082983193277307) 61%);
+     background: linear-gradient(54deg, rgba(16,255,0,1) 0%, rgba(16,255,0,0.48082983193277307) 61%);
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#10ff00",endColorstr="#10ff00",GradientType=1);
+     position: absolute;
+     z-index: -999;
+     filter: blur(4px);
+}
